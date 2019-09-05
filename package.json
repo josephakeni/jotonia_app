@@ -1,23 +1,23 @@
 {
   "name": "jotonia_app",
   "version": "1.0.0",
-  "description": "jotonia_app",
-  "main": "index.js",
+  "description": "Node App for Kubernetes",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon node app",
     "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josephakeni/jotonia_app.git"
   },
-  "keywords": [
-    "node",
-    "js"
-  ],
   "author": "Joseph Akeni",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/josephakeni/jotonia_app/issues"
   },
-  "homepage": "https://github.com/josephakeni/jotonia_app#readme"
+  "homepage": "https://github.com/josephakeni/jotonia_app#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
