@@ -4,7 +4,7 @@
   "description": "Node App for Kubernetes",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon node app",
+    "start": "node app",
     "test": "test"
   },
   "repository": {
